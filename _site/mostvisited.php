@@ -72,7 +72,7 @@ $result = mysql_query("SELECT * FROM mostVisited");
 
 while($row = mysql_fetch_array($result)) {
 
-	if ($row['journal'] == 'IJTAN'){
+	if ($row['journal'] == 'IJECS'){
 		if($allLinksExploded[0] == $row['link']){
 			$authorInfo =  $authorInfo . $row['link'] . ' - ' . $row['authors'] . ' - ';
 		}
@@ -83,7 +83,7 @@ $result = mysql_query("SELECT * FROM mostVisited");
 
 while($row = mysql_fetch_array($result)) {
 
-	if ($row['journal'] == 'IJTAN'){
+	if ($row['journal'] == 'IJECS'){
 		if($allLinksExploded[1] == $row['link']){
 			$authorInfo =  $authorInfo . $row['link'] . ' - ' . $row['authors'] . ' - ';
 		}
@@ -94,7 +94,7 @@ $result = mysql_query("SELECT * FROM mostVisited");
 
 while($row = mysql_fetch_array($result)) {
 
-	if ($row['journal'] == 'IJTAN'){
+	if ($row['journal'] == 'IJECS'){
 		if($allLinksExploded[2] == $row['link']){
 			$authorInfo =  $authorInfo . $row['link'] . ' - ' . $row['authors'] . ' - ';
 		}
@@ -105,7 +105,7 @@ $result = mysql_query("SELECT * FROM mostVisited");
 
 while($row = mysql_fetch_array($result)) {
 
-	if ($row['journal'] == 'IJTAN'){
+	if ($row['journal'] == 'IJECS'){
 		if($allLinksExploded[3] == $row['link']){
 			$authorInfo =  $authorInfo . $row['link'] . ' - ' . $row['authors'] . ' - ';
 		}
@@ -116,7 +116,7 @@ $result = mysql_query("SELECT * FROM mostVisited");
 
 while($row = mysql_fetch_array($result)) {
 
-	if ($row['journal'] == 'IJTAN'){
+	if ($row['journal'] == 'IJECS'){
 		if($allLinksExploded[4] == $row['link']){
 			$authorInfo =  $authorInfo . $row['link'] . ' - ' . $row['authors'] . ' - ';
 		}
