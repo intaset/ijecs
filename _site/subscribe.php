@@ -172,7 +172,7 @@ if ($emailcheck2 != 0) {
   </ul>
   <div class="navbar-collapse collapse">
     <ul class="nav navbar-nav">
-      <li><a href="../volume1/issue1">Volume 1, Issue 1</a></li>
+      <li><a href="../volume1/issue1.html">Volume 1, Issue 1</a></li>
       <li><a href="../current">Current Volume</a></li>
     </ul>
   </div><!--/.nav-collapse -->
@@ -523,7 +523,7 @@ mail($email, $subject, $message,  "FROM: $jName <no-reply@avestia.com>");
   </ul>
   <div class="navbar-collapse collapse">
     <ul class="nav navbar-nav">
-      <li><a href="../volume1/issue1">Volume 1, Issue 1</a></li>
+      <li><a href="../volume1/issue1.html">Volume 1, Issue 1</a></li>
       <li><a href="../current">Current Volume</a></li>
     </ul>
   </div><!--/.nav-collapse -->
